@@ -21,7 +21,7 @@ const Dashboard = () => {
 {/* ? header */}
       <header className='display-flex'>
       <img className='logo-img' src={imgDash} alt="" />
-        <h1>Biologiya fanidan vertual labaratoria ishlar.</h1>
+        <h1>Biologiya fanidan virtual laboratoriya ishlari.</h1>
       </header>
 
       {/* ? cards */}
@@ -31,7 +31,7 @@ const Dashboard = () => {
           <div>
 
           <p>
-            Har bir hujayra — hayotning mo‘jizasi. Har bir kashfiyot — yangi dunyoga eshik dir. Biologiya olamiga xush kelibsiz. O‘rganing, kuzating va  kashf eting.!
+            Har bir hujayra — hayotning mo‘jizasi. Har bir kashfiyot — yangi dunyoga eshikdir. Biologiya olamiga xush kelibsiz. O‘rganing, kuzating va  kashf eting.!
           </p>
         <NavLink to='FirstCard' >
           <button>7 - sinf</button>

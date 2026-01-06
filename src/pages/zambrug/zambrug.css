@@ -127,7 +127,7 @@
 .accordion-container img{
     width: 200px;
     object-fit: contain;
-    height: 250px;
+    height: 200px;
 }
 
 .animation-area img {
@@ -186,11 +186,11 @@
 
 /* Natija rasmi (o‘rtada chiqadi) */
 div > .result-img {
-  width: 300px;
-  background-size: cover;
+  width: 350px;
+  background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  object-fit: cover;
+  /* object-fit: cover; */
   opacity: 0;
   animation: appear 0.5s 1.5s forwards;
 }
@@ -234,6 +234,7 @@ div > .result-img {
   top: 0px !important;
   left: 0px;
   bottom: 0px !important;
+  
 }
 
 .side-bar::-webkit-scrollbar {

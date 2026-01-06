@@ -19,7 +19,7 @@ import gul from '../../assets/7.4/gul.png'
 import qogozGuldanQisqich from '../../assets/7.4/barg_qogoz_qisqich.png'
 import qogozGuldan from '../../assets/7.4/qogozGulda.png'
 import qisqich from '../../assets/7.4/qisqichch-removebg-preview.png'
-import stakanOlovda from '../../assets/7.4/issiq_suv-removebg-preview.png'
+import stakanOlovda from '../../assets/7.4/spirt_lampa_olovli.png'
 import stakanIchidaIdish from '../../assets/7.4/bargli_spirt_lamp_suv_hammomida.png'
 import kesilganBarg from '../../assets/7.4/qirqilgan_barg.png'
 import konusStakan from '../../assets/7.4/konusStakan.png'
@@ -40,61 +40,61 @@ import buyumQopOyna from "../../assets/5.3/buyum_qop_oyna_sariq.png";
 // ✅ 10 bosqichli ma'lumotlar (Osimliklarda dagi bilan bir xil)
 const stepsData = [
   {
-    text: "Idishdagi iliq suvga shakar soling.",
+    text: "Qora qog'ozga shakl yoki harf chizib kesib oling.",
     img1: qoraQo,
     img2: qaychi,
     resultImg: kesilganQ,
   },
   {
-    text: "Piyozni skalpel yordamida bo'ling",
+    text: "2-3 kun qorong'u joyda saqlangan yorongul bargini kesib olingan qora qog'oz bilan yoping.",
     img1: gul,
     img2: kesilganQ,
     resultImg: qogozGuldan,
   },
   {
-    text: "Pipetka yordamida idishdagi suvdan oling.",
+    text: "Qisqich bilan mahkamlang va yorug' joyga qo'ying.",
     img1: qogozGuldan,
     img2: qisqich,
     resultImg: qogozGuldanQisqich,
   },
   {
-    text: " Tozalab artilgan buyum oynasiga pipetka yordamida bir tomchi suv tomizing.",
+    text: "Ikki kundan so'ng qaychi yordamida bargni kesib oling va qora qog'ozni olib tashlang.",
     img1: qogozGuldanQisqich,
     img2: qaychi,
-    resultImg: qisqichB,
+    resultImg: kesilganBarg,
   },
   {
-    text: " Pinset yordamida kesilgan piyozning yupqa po'stini ajratib oling.",
+    text: "Bargni dastlab issiq suvga soling.",
     img1: stakanOlovda,
     img2: kesilganBarg,
     resultImg: stakandaBarg,
   },
   {
-    text: " Piyozning yupqa po'stini buyum oynasidagi bir tomchi suv ustiga tekis qilib joylashtiring",
+    text: "Undan so'ng spirtga soling.",
     img1: konusStakan,
     img2: kesilganBarg,
     resultImg: konusBarg,
   },
   {
-    text: " Pipetka yordamida yod eritmasidan oling.",
+    text: "Barg solingan spirtli idishni suv hammomiga qo'ying.",
     img1: stakanOlovda,
     img2: konusBarg,
     resultImg: stakanIchidaIdish,
   },
   {
-    text: " Piyozning yupqa po'stini buyum oynasiga qo'ygandan so'ng, ustiga 1 tomchi yod eritmasini tomizing",
+    text: "Qaynoq spirtda barg rangsizlanib, spirt yangil rangga kiradi.",
     img1: yashilS,
     img2: rangsizbarg,
     resultImg: buyumQopOyna,
   },
   {
-    text: "Qoplagich oyna bilan yoping.",
+    text: "Rangsizlangan bargni suvga chayib oling.",
     img1: kosadaS,
     img2: rangsizbarg,
     resultImg: bargSuvDa,
   },
   {
-    text: "Tayyor bo'lgan preperatni mikroskop ostida kuzating.",
+    text: "Petri idishidagi yod eritmasiga rangsizlangan bargni soling va natijani kuzating (bargning qora qog'oz yopilgan qismi sarg'ish, qora qog'oz yopilmagan qismi esa ko'k rangga kiradi). ",
     img1: rangQaytargich,
     img2: rangsizbarg,
     resultImg: kokBarg,
@@ -134,7 +134,7 @@ const Bargda = () => {
       <div className="max-width">
         {/* Sarlavha */}
         <div className="pages-title osimlik">
-          <h1>Piyoz po'sti hujayrasining tuzilishini mikroskop ostida kuzatish</h1>
+          <h1>Bargda organik moddalarning hosil bo'lishini kuzatish</h1>
           <div onClick={() => navigate(-1)} className="display-flex orqaga">
             <i className="bx bx-chevron-left"></i>
             <p>orqaga</p>

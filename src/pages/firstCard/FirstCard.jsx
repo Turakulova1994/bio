@@ -19,7 +19,7 @@ const FirstCard = () => {
       <div className="first-card-nav">
 
       <h1 className='first-card-title'>
-        Elementlar bilan tanishuv va laboratoriya ishlar.
+        Elementlar bilan tanishuv va laboratoriya ishlari.
       </h1>
       
       <div onClick={() => navigate(-1)} className='display-flex orqaga'>
@@ -44,7 +44,7 @@ const FirstCard = () => {
         <NavLink to="/Katta">
           <div className="menu-card card-2">
             <img src={two} alt="two" />
-            <p className="descript">Kattalashtirib ko'rsatuvchi asboblar</p>
+            <p className="descript">Kattalashtirib ko'rsatuvchi asboblar (mikroskop misolida)</p>
           </div>
         </NavLink>
 
@@ -65,7 +65,7 @@ const FirstCard = () => {
         <NavLink to="/Osimlik">
           <div className="menu-card card-5">
             <img src={five} alt="five" />
-            <p className="descript"> O'simlik to'qimasidan vaqtinchalik preparat tayyorlash</p>
+            <p className="descript"> Piyoz po'sti hujayrasining tuzilishini mikroskop ostida kuzatish</p>
           </div>
         </NavLink>
         <NavLink to="/Osimliklarda">

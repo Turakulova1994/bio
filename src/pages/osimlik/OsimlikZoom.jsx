@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import zamzum from '../../assets/5.3-piyoz/piyoz_hujayra_togri.png';
+import zamzum from '../../assets/5.3-piyoz/Piy_huj_ich.png';
 import '../katta/katta.css';
 
 const OsimlikZoom = () => {

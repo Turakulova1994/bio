@@ -17,19 +17,21 @@ import voronka from "../../assets/5.4-labaratoria/achitqi-removebg-preview.png";
 import mikroskop from "../../assets/5.4-labaratoria/mikroskop-removebg-preview.png";
 import qoshiqDroj from "../../assets/5.4-labaratoria/qoshiqda_droja-removebg-preview.png";
 import qoshiqShakar from "../../assets/5.4-labaratoria/sugar_spoon-removebg-preview.png";
-import suv from "../../assets/5.4-labaratoria/suv_kosada.jpg";
+import suv from "../../assets/5.4-labaratoria/water_bowl-removebg-preview.png";
 import drojliSuv from "../../assets/5.4-labaratoria/drojli_suv-removebg-preview.png";
 import xamir from "../../assets/5.4-labaratoria/xamir.jpg";
 import pipetkadaSuv from "../../assets/5.4-labaratoria/pipetkada_suv-removebg-preview.png";
 import buyumYod from "../../assets/5.4-labaratoria/buyum_yod-removebg-preview.png";
 import buyumQopOyna from "../../assets/5.4-labaratoria/buyum_qop_oyna_sariq.png";
 import yeast from "../../assets/5.4-labaratoria/Yeast_3d.jpg";
+import shakarliSuv from "../../assets/5.4-labaratoria/shakarli_suv-removebg-preview.png";
+import xamirTurush from "../../assets/5.4-labaratoria/photo_2024-08-02_14-45-46-removebg-preview.png"
 
 
 const stepsData = [
-  { text: "Idishdagi iliq suvga shakar soling.", img1: suv, img2: qoshiqShakar, resultImg: suv },
-  { text: "Shakarli suvga achitqi zamburug'idan soling va iliq joyga qo'ying.", img1: suv, img2: qoshiqDroj, resultImg: drojliSuv },
-  { text: "Ko'pchib chiqqan xamirtuturshtan pipetka yordamida oling.", img1: xamir, img2: petri, resultImg: pipetkadaSuv },
+  { text: "Idishdagi iliq suvga shakar soling.", img1: suv, img2: qoshiqShakar, resultImg: shakarliSuv },
+  { text: "Shakarli suvga achitqi zamburug'idan soling va iliq joyga qo'ying.", img1: shakarliSuv, img2: qoshiqDroj, resultImg: drojliSuv },
+  { text: "Ko'pchib chiqqan xamirtuturshtan pipetka yordamida oling.", img1: xamirTurush, img2: petri, resultImg: pipetkadaSuv },
   { text: "Buyum oynasiga tomizing.", img1: buyumOynasi, img2: pipetkadaSuv, resultImg: buyumYod },
   { text: "Ustidan qoplagich oynani yoping.", img1: buyumYod, img2: hovoncha, resultImg: buyumQopOyna },
   { text: "Tayyor bo'lgan preparatni mikroskop ostida kuzating.", img1: mikroskop, img2: buyumQopOyna, resultImg: yeast },
@@ -126,7 +128,7 @@ const Zambrug = () => {
 
              <p>
 
-             zambrug`ni zoom xolatda ko`rish
+             Zamburug' hujayrasining tarkibiy qismlari bilan tanishish
              </p>
           </NavLink>
           

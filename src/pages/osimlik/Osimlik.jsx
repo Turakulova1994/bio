@@ -33,55 +33,55 @@ import buyumQopOyna from "../../assets/5.3/buyum_qop_oyna_sariq.png";
 // ✅ 10 bosqichli ma'lumotlar (Osimliklarda dagi bilan bir xil)
 const stepsData = [
   {
-    text: "Idishdagi iliq suvga shakar soling.",
+    text: "Piyozni skalpel yordamida bo'ling",
     img1: piyoz,
     img2: skalpelN,
     resultImg: piozP,
   },
   {
-    text: "Piyozni skalpel yordamida bo'ling",
+    text: "Pipetka yordamida idishdagi suvdan oling.",
     img1: suvStakan,
     img2: pipetka,
     resultImg: pipS,
   },
   {
-    text: "Pipetka yordamida idishdagi suvdan oling.",
+    text: " Tozalab artilgan buyum oynasiga pipetka yordamida bir tomchi suv tomizing.",
     img1: buyumOynasi,
     img2: pipS,
     resultImg: suvliBuyumOna,
   },
   {
-    text: " Tozalab artilgan buyum oynasiga pipetka yordamida bir tomchi suv tomizing.",
+    text: "Pinset yordamida kesilgan piyozning yupqa po'stini ajratib oling.",
     img1: piozP,
     img2: pinset,
     resultImg: pinDaPiyoz,
   },
   {
-    text: " Pinset yordamida kesilgan piyozning yupqa po'stini ajratib oling.",
+    text: "Piyozning yupqa po'stini buyum oynasidagi bir tomchi suv ustiga tekis qilib joylashtiring",
     img1: suvliBuyumOna,
     img2: pinDaPiyoz,
     resultImg: suvliBuyumOna,
   },
   {
-    text: " Piyozning yupqa po'stini buyum oynasidagi bir tomchi suv ustiga tekis qilib joylashtiring",
+    text: "Pipetka yordamida yod eritmasidan oling.",
     img1: yod,
     img2: pipetka,
     resultImg: yPipetka,
   },
   {
-    text: " Pipetka yordamida yod eritmasidan oling.",
+    text: " Piyozning yupqa po'stini buyum oynasiga qo'ygandan so'ng, ustiga 1 tomchi yod eritmasini tomizing.",
     img1: suvliBuyumOna,
     img2: yPipetka,
     resultImg: buyumY,
   },
   {
-    text: " Piyozning yupqa po'stini buyum oynasiga qo'ygandan so'ng, ustiga 1 tomchi yod eritmasini tomizing",
+    text: "Qoplagich oyna bilan yoping.",
     img1: buyumY,
     img2: qoplagich,
     resultImg: buyumQopOyna,
   },
   {
-    text: "Qoplagich oyna bilan yoping.",
+    text: "Ortiqcha suvni filtr qog'ozga shimdiring.",
     img1: buyumQopOyna,
     img2: filterQ,
     resultImg: buyumQopOyna,
@@ -135,7 +135,7 @@ const Osimlik = () => {
 
         {/* Yon panel */}
         <div className="side-bar">
-          {[buyumOynasi, suvStakan, petri, pinset, pipetkaSide, probirka, qoplagich, skalpel, piozP].map(
+          {[buyumOynasi, suvStakan, petri, pinset, pipetkaSide, qoplagich, skalpel, piyoz, yod, mikroskop, filterQ].map(
             (img, i) => (
               <div className="bar-img" key={i}>
                 <img src={img} alt={`tool-${i}`} />
@@ -189,7 +189,7 @@ const Osimlik = () => {
 
              <p>
 
-             Osimlikni zoom xolatda ko`rish
+             O'simlik hujayrasining tarkibiy qismlari bilan tanishish
              </p>
           </NavLink>
       </div>

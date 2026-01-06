@@ -8,6 +8,7 @@ import qizil from "../../assets/7.5/qizillll-removebg-preview.png";
 import sariq from "../../assets/7.5/sariq-removebg-preview.png";
 import kok from "../../assets/7.5/ko_k-removebg-preview.png";
 import suvStakan from "../../assets/7.5/water_in_glass-removebg-preview.png";
+import oqKaram from "../../assets/7.5/oq_karam-removebg-preview.png";
 
 // 🥄 Bosqich rasmlari
 import pipSariq from "../../assets/7.5/pipetka_sariq.png";
@@ -30,61 +31,61 @@ import res from '../../assets/7.5/natija-removebg-preview.png'
 
 const stepsData = [
   { 
-    text: "Idishdagi iliq suvga shakar soling.", 
+    text: "Sariq rangli oziq bo'yog'idan pipetka yordamida oling.", 
     img1: sariqKontchada, 
     img2: pipetka, 
     resultImg: pipSariq, 
   },
   { 
-    text: "Shakarli suvga achitqi zamburug'idan soling va iliq joyga qo'ying.", 
+    text: "1-stakandagi suvga pipetka yordamida sariq rangdan 10 tomchi tomizing.", 
     img1: suvStakan, 
     img2: pipSariq, 
     resultImg: sariqSuv
   },
   { 
-    text: "Ko'pchib chiqqan xamirtuturshtan pipetka yordamida oling.", 
+    text: "Sariq rangli suvga karam bargini soling.", 
     img1: sariqSuv, 
-    img2: karam, 
+    img2: oqKaram, 
     resultImg: sariqKaram 
   },
   { 
-    text: "Buyum oynasiga tomizing.", 
+    text: "Qizil rangli oziq bo'yog'idan pipetka yordamida oling.", 
     img1: qizilRang, 
     img2: pipetka, 
     resultImg: qizilPip 
   },
   { 
-    text: "Ustidan qoplagich oynani yoping.", 
+    text: "2-stakandagi suvga pipetka yordamida qizil rangdan 10 tomchi tomizing.", 
     img1: suvStakan, 
     img2: qizilPip, 
     resultImg: qizilSuv 
   },
   { 
-    text: "Tayyor bo'lgan preparatni mikroskop ostida kuzating.", 
+    text: "Qizil rangli suvga boshqa ikkinchi karam bargini soling.", 
     img1: qizilSuv, 
-    img2: karam, 
+    img2: oqKaram, 
     resultImg: karamQizil 
   },
    { 
-    text: "Tayyor bo'lgan preparatni mikroskop ostida kuzating.", 
+    text: "Ko'k rangli oziq bo'yog'idan pipetka yordamida oling.", 
     img1: kokRang, 
     img2: pipetka, 
     resultImg: kokPip 
   },
    { 
-    text: "Tayyor bo'lgan preparatni mikroskop ostida kuzating.", 
+    text: "3-stakandagi suvga pipetka yordamida ko'k rangdan 10 tomchi tomizing.", 
     img1: suvStakan, 
     img2: kokPip, 
     resultImg: kokSuv 
   },
    { 
-    text: "Tayyor bo'lgan preparatni mikroskop ostida kuzating.", 
+    text: "Ko'k rangli suvga boshqa uchinchi karam bargini soling.", 
     img1: kokSuv, 
-    img2: karam, 
+    img2: oqKaram, 
     resultImg: kokKaram
   },
    { 
-    text: "Tayyor bo'lgan preparatni mikroskop ostida kuzating.", 
+    text: "1 soatdan so'ng barglarning ranglarini kuzating.", 
     img1: res, 
     resultImg: res,
     
@@ -129,7 +130,7 @@ const Osimliklarda = () => {
 
         {/* Yon panel */}
         <div className="side-bar">
-          {[karam, qizil, sariq, kok, suvStakan].map(
+          {[oqKaram, qizil, sariq, kok, suvStakan, pipetka].map(
             (img, i) => (
               <div className="bar-img" key={i}>
                 <img src={img} alt={`tool-${i}`} />

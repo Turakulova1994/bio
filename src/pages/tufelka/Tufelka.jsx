@@ -100,7 +100,7 @@ const Tufelka = () => {
       <div className="max-width">
         {/* 🔹 Sarlavha */}
         <div className="pages-title">
-          <h1>O‘simliklarda moddalar transportini o‘rganish</h1>
+          <h1>Tufelka infuzoriyasining harakatlanishini kuzatish</h1>
           <div onClick={() => navigate(-1)} className="display-flex orqaga">
             <i className="bx bx-chevron-left"></i>
             <p>Orqaga</p>
