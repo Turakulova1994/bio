@@ -62,7 +62,7 @@ const OsimlikZoom = () => {
 
     <div className="max-width">
       <div className="pages-title">
-        <h1>Piyoz po'sti hujayrasining mikroskop ostida ko'rinishi (o'simlik hujayrasi misolida)
+        <h1>O'simlik hujayrasining mikroskop ostida ko'rinishi
 </h1>
         <div onClick={() => navigate(-1)} className="display-flex orqaga">
           <i className="bx bx-chevron-left"></i>
