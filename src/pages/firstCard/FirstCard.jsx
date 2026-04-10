@@ -65,7 +65,7 @@ const FirstCard = () => {
         <NavLink to="/Osimlik">
           <div className="menu-card card-5">
             <img src={five} alt="five" />
-            <p className="descript"> Piyoz po'sti hujayrasining tuzilishini mikroskop ostida kuzatish</p>
+            <p className="descript"> O'simlik to'qimasidan vaqtinchalik preparat tayyorlash</p>
           </div>
         </NavLink>
         <NavLink to="/Osimliklarda">

@@ -126,7 +126,7 @@ const Osimlik = () => {
       <div className="max-width">
         {/* Sarlavha */}
         <div className="pages-title osimlik">
-          <h1>Piyoz po'sti hujayrasining tuzilishini mikroskop ostida kuzatish</h1>
+          <h1>O'simlik to'qimasidan vaqtinchalik preparat tayyorlash</h1>
           <div onClick={() => navigate(-1)} className="display-flex orqaga">
             <i className="bx bx-chevron-left"></i>
             <p>orqaga</p>
